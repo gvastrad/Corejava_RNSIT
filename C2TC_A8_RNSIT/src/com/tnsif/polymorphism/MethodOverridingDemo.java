@@ -45,4 +45,3 @@ public class MethodOverridingDemo {
 		System.out.println(obj1.getRateOfInterest());
 	}
 }
-String
