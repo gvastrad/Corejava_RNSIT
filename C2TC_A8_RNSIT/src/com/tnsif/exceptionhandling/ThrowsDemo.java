@@ -1,11 +1,11 @@
 package com.tnsif.exceptionhandling;
-
 import java.io.IOException;
 
 public class ThrowsDemo {
 	void m()throws IOException
 	{
 	throw new IOException("device error !");//checked exception
+	
 	}
 	void n()throws IOException
 	{
