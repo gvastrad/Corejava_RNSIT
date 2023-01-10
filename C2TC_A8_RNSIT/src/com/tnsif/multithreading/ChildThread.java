@@ -1,5 +1,4 @@
 package com.tnsif.multithreading;
-
 public class ChildThread extends Thread {
 	int st;
 	String msg;

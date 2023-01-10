@@ -1,7 +1,6 @@
 package com.tnsif.multithreading;
 
 public class ThreadDemo {
-
 	public static void main(String[] args) {
 		ChildThread ct1=new ChildThread(2000,"First");
 		ChildThread ct2=new ChildThread(3000,"Second");
@@ -19,5 +18,4 @@ public class ThreadDemo {
 		}
 System.out.println("In main Thread");
 	}
-
 }

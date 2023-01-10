@@ -8,7 +8,6 @@ public class UsingRunnable implements Runnable {
 		this.st = st;
 		this.msg = msg;
 	}
-
 	@Override
 	public void run() {
 		for(int i=1;i<=10;i++)
@@ -22,8 +21,6 @@ public class UsingRunnable implements Runnable {
 				System.out.println(e.getMessage());
 			}
 			System.out.println(msg+i);
-		}
-		
+		}	
 	}
-
 }

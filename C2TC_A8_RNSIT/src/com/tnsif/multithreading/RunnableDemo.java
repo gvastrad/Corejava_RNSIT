@@ -1,7 +1,6 @@
 package com.tnsif.multithreading;
 
 public class RunnableDemo {
-
 	public static void main(String[] args) {
 		UsingRunnable obj1=new UsingRunnable(2000,"FIRST");
 		UsingRunnable obj2=new UsingRunnable(4000,"SECOND");
@@ -23,5 +22,6 @@ public class RunnableDemo {
 System.out.println("In main Thread");
 	}
 	}
+
 
 
